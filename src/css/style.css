@@ -285,4 +285,40 @@ img {
   .offer__button {
     font-size: 16px;
   }
+}
+.offer__info {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 30px;
+  font-size: 15px;
+  line-height: 24px;
+}
+@media (max-width: 1200px) {
+  .offer__info {
+    flex-direction: column;
+  }
+}
+@media (max-width: 768px) {
+  .offer__info {
+    flex-direction: row;
+  }
+}
+@media (max-width: 570px) {
+  .offer__info {
+    flex-direction: column;
+  }
+}
+.offer__leftinfo {
+  display: flex;
+  max-width: 170px;
+}
+.offer__rightinfo {
+  flex-direction: column;
+  display: flex;
+}
+.offer__tel {
+  text-decoration: none;
+  color: #333;
+  font-family: "Museo Sans Bold", sans-serif;
+  font-weight: 700;
 }/*# sourceMappingURL=style.css.map */
