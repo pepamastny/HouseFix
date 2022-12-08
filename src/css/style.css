@@ -57,6 +57,14 @@ img {
   padding: 20px 25px;
 }
 
+.section-title {
+  font-size: 30px;
+  font-family: "Museo Sans Bold", sans-serif;
+  font-weight: 700;
+  text-align: center;
+  line-height: 45px;
+}
+
 .header {
   padding: 20px 0;
 }
@@ -321,6 +329,31 @@ img {
   color: #333;
   font-family: "Museo Sans Bold", sans-serif;
   font-weight: 700;
+}
+
+.portfolio {
+  padding: 100px 0;
+  background: #f5f5f5 url("../img/portfolio-bg.png") left repeat-y;
+  background-size: 50%;
+}
+.portfolio__title {
+  margin-bottom: 100px;
+  color: #333;
+}
+.portfolio__arrows {
+  max-width: 120px;
+  display: flex;
+  justify-content: space-between;
+  margin: auto;
+  margin-top: 70px;
+}
+
+.arrows__left, .arrows__right {
+  cursor: pointer;
+}
+
+.slider__image {
+  margin: auto;
 }
 
 .modal {
