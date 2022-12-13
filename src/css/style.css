@@ -412,6 +412,11 @@ img {
 .card__image img {
   display: block;
 }
+@media (max-width: 768px) {
+  .card__image img {
+    width: 100%;
+  }
+}
 .card__image::before {
   content: "";
   position: absolute;

@@ -7,21 +7,22 @@
     <title>HouseFix</title>
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/slick.css">
+    <link rel="stylesheet" href="css/animate.min.css">
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
     <header class="header">
         <div class="container">
             <div class="header-block">
-                <div class="header__logo">
+                <div class="header__logo wow animate__animated animate__bounceInDown">
                     <img src="img/logo.png" alt="Logo">
                 </div>
                 <div class="header__info">
                     <div class="header__contacts">
-                        <span class="header__adress">Praha</span>
-                        <a href="tel:+420777167699" class="header__phone">+420 777 167 699</a>
+                        <span class="header__adress wow animate__animated animate__slideInDown">Praha</span>
+                        <a href="tel:+420777167699" class="header__phone wow animate__animated animate__fadeInRight">+420 777 167 699</a>
                     </div>
-                    <button class="button header__button" id="button">Zavolejte mi</button>
+                    <button class="button header__button wow animate__animated animate__jello animate__infinite animate__delay-1s" id="button">Zavolejte mi</button>
                 </div>
             </div>
         </div>
@@ -32,30 +33,30 @@
             <div class="container">
                 <div class="main-block">
                     <div class="main-text">
-                        <h1 class="main-text__title">Dekorace vnitřních prostorů "na klíč"</h1>
-                        <span class="main-text__subtitle">se zárukou kvality stanovené ve smlouvě</span>
+                        <h1 class="main-text__title wow animate__animated animate__flipInY">Dekorace vnitřních prostorů "na klíč"</h1>
+                        <span class="main-text__subtitle wow animate__animated animate__flipInX">se zárukou kvality stanovené ve smlouvě</span>
                         <ul class="main-list">
                             <li class="main-list__item">
-                                <div class="main-list__image">
+                                <div class="main-list__image wow animate__animated animate__fadeInLeft" data-wow-delay=".1s">
                                     <img src="img/clock.png" alt="Hodiny">
                                 </div>
-                                <span class="main-list__text">Přesně dodržujeme termíny</span>
+                                <span class="main-list__text wow animate__animated animate__fadeInRight" data-wow-delay=".1s">Přesně dodržujeme termíny</span>
                             </li>
                             <li class="main-list__item">
-                                <div class="main-list__image">
+                                <div class="main-list__image wow animate__animated animate__fadeInLeft" data-wow-delay=".3s">
                                     <img src="img/calculator.png" alt="Kalkulačka">
                                 </div>
-                                <span class="main-list__text">Vypočítáme náklady práce a materiálů ve stejný den poptávky </span>
+                                <span class="main-list__text wow animate__animated animate__fadeInRight" data-wow-delay=".3s">Vypočítáme náklady práce a materiálů ve stejný den poptávky </span>
                             </li>
                             <li class="main-list__item">
-                                <div class="main-list__image">
+                                <div class="main-list__image wow animate__animated animate__fadeInLeft" data-wow-delay=".5s">
                                     <img src="img/palet.png" alt="Paleta">
                                 </div>
-                                <span class="main-list__text">Nabídneme vám více než 100 možností provedení designu vašeho bydlení</span>
+                                <span class="main-list__text wow animate__animated animate__fadeInRight" data-wow-delay=".5s">Nabídneme vám více než 100 možností provedení designu vašeho bydlení</span>
                             </li>
                         </ul>
                     </div>
-                    <div class="main-image">
+                    <div class="main-image wow animate__animated animate__zoomIn animate__slower">
                         <img src="img/main-image.png" alt="Rozpoložení bytu">
                     </div>
                 </div>
@@ -65,16 +66,16 @@
         <section class="offer">
             <div class="container">
                 <div class="offer-block">
-                    <h2 class="offer-title">Bezplatně vypracujeme design-projekt pro Váš domov a realizujeme ho!</h2>
-                    <span class="offer-subtitle">Zanechte poptávku pro vypracování bezplatného design-projektu!</span>
+                    <h2 class="offer-title wow animate__animated animate__flipInY">Bezplatně vypracujeme design-projekt pro Váš domov a realizujeme ho!</h2>
+                    <span class="offer-subtitle wow animate__animated animate__flipInX">Zanechte poptávku pro vypracování bezplatného design-projektu!</span>
                     <form action="#" class="form offer__form">
-                        <input type="text" class="input offer__input" placeholder="Vaše jméno">
-                        <input type="tel" class="input offer__input" placeholder="Váš telefon">
-                        <button class="button offer__button">Získejte bezplatný design-projekt</button>
+                        <input type="text" class="input offer__input wow animate__animated animate__slideInLeft" placeholder="Vaše jméno">
+                        <input type="tel" class="input offer__input wow animate__animated animate__slideInRight" placeholder="Váš telefon">
+                        <button class="button offer__button wow animate__animated animate__flip">Získejte bezplatný design-projekt</button>
                     </form>
                     <div class="offer__info">
-                        <span class="offer__leftinfo">Náš manažer vám zavolá v průběhu 60 sekund</span>
-                        <div class="offer__rightinfo">
+                        <span class="offer__leftinfo wow animate__animated animate__fadeInBottomLeft">Náš manažer vám zavolá v průběhu 60 sekund</span>
+                        <div class="offer__rightinfo wow animate__animated animate__fadeInBottomRight">
                             <span>nebo nám zavolejte sami</span>
                             <a href="tel:+420777167699" class="offer__tel">+420 777 167 699</a>
                         </div>
@@ -85,7 +86,7 @@
 
         <section class="portfolio">
             <div class="container">
-                <h2 class="section-title portfolio__title">Za dobu práce od roku 2007, <br> jsme realizovali více než 500 oprav bytů a domů</h2>
+                <h2 class="section-title portfolio__title wow animate__animated animate__bounceInDown">Za dobu práce od roku 2007, <br> jsme realizovali více než 500 oprav bytů a domů</h2>
                 
                 <div class="slider">
                     <div class="slider__item"><img class="slider__image" src="img/Portfolio1.jpg" alt="Obrázek 1"></div>
@@ -97,10 +98,10 @@
                 </div>
 
                 <div class="arrows portfolio__arrows">
-                    <div class="arrows__left">
+                    <div class="arrows__left wow animate__animated animate__fadeInRightBig">
                         <img src="img/arrow-left.png" alt="Šipka vlevo">
                     </div>
-                    <div class="arrows__right">
+                    <div class="arrows__right wow animate__animated animate__fadeInLeftBig">
                         <img src="img/arrow-right.png" alt="Šipka vpravo">
                     </div>
                 </div>
@@ -113,7 +114,7 @@
                 <h2 class="section-title price__title">Máme velmi flexibilní systém slev <br> pro komplexní práce!</h2>
                 <span class="section-subtitle price__subtitle">Ceny za naše služby</span>
                 <div class="cards">
-                    <div class="card price__card">
+                    <div class="card price__card wow animate__animated animate__fadeInUp" data-wow-delay=".1s">
                         <div class="card__image">
                             <img src="img/Price1.jpg" alt="Koupelna">
                         </div>
@@ -122,7 +123,7 @@
                             <a href="#" class="card__link">Zjistit ceny</a>
                         </div>
                     </div>
-                    <div class="card price__card">
+                    <div class="card price__card wow animate__animated animate__fadeInUp" data-wow-delay=".2s">
                         <div class="card__image">
                             <img src="img/Price2.jpg" alt="Obývací pokoj">
                         </div>
@@ -131,7 +132,7 @@
                             <a href="#" class="card__link">Zjistit ceny</a>
                         </div>
                     </div>
-                    <div class="card price__card">
+                    <div class="card price__card wow animate__animated animate__fadeInUp" data-wow-delay=".3s">
                         <div class="card__image">
                             <img src="img/Price3.jpg" alt="Kancelář">
                         </div>
@@ -140,7 +141,7 @@
                             <a href="#" class="card__link">Zjistit ceny</a>
                         </div>
                     </div>
-                    <div class="card price__card">
+                    <div class="card price__card wow animate__animated animate__fadeInUp" data-wow-delay=".4s">
                         <div class="card__image">
                             <img src="img/Price4.jpg" alt="Nové budovy">
                         </div>
@@ -149,7 +150,7 @@
                             <a href="#" class="card__link">Zjistit ceny</a>
                         </div>
                     </div>
-                    <div class="card price__card">
+                    <div class="card price__card wow animate__animated animate__fadeInUp" data-wow-delay=".5s">
                         <div class="card__image">
                             <img src="img/Price5.jpg" alt="Kuchyně">
                         </div>
@@ -158,7 +159,7 @@
                             <a href="#" class="card__link">Zjistit ceny</a>
                         </div>
                     </div>
-                    <div class="card price__card">
+                    <div class="card price__card wow animate__animated animate__fadeInUp" data-wow-delay=".6s">
                         <div class="card__image">
                             <img src="img/Price6.jpg" alt="Chaty a chalupy">
                         </div>
@@ -183,6 +184,7 @@
 
     <script src="https://code.jquery.com/jquery-3.6.1.min.js"></script>
     <script src="js/slick.min.js"></script>
+    <script src="js/wow.min.js"></script>
     <script src="js/main.js"></script>
 
 </body>
