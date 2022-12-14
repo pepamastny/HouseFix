@@ -317,14 +317,26 @@ img
 
 .steps
     padding-bottom: 120px
+    @media (max-width: 860px)
+        padding-bottom: 70px
     &__title
         margin-bottom: 60px
+        @media (max-width: 860px)
+            margin-bottom: 30px
+            font-size: 18px
+            line-height: normal
     &__subtitle
         margin-bottom: 75px
+        @media (max-width: 860px)
+            margin-bottom: 35px
+            font-size: 14px
+            line-height: 45px
 
 .icons
     display: flex
     justify-content: space-between
+    @media (max-width: 860px)
+        display: block
 
 .icon
     text-align: center
@@ -341,6 +353,12 @@ img
         width: 72px
         height: 25px
         background-image: url("../img/icon-arrowRight.png")
+        @media (max-width: 1080px)
+            right: -75px
+        @media (max-width: 920px)
+            right: -55px
+        @media (max-width: 860px)
+            display: none
     &__image
         width: 100px
         height: 100px
@@ -361,6 +379,10 @@ img
         display: inline-block
         font-size: 14px
         line-height: 20px
+        @media (max-width: 860px)
+            margin-bottom: 30px
+            font-size: 12px
+            line-height: 16px
 
 
 .notice
@@ -373,6 +395,10 @@ img
         margin: auto
         line-height: 50px
         font-weight: 300px
+        @media (max-width: 860px)
+            font-size: 18px
+            line-height: normal
+
 
 .modal
     position: fixed

@@ -466,16 +466,40 @@ img {
 .steps {
   padding-bottom: 120px;
 }
+@media (max-width: 860px) {
+  .steps {
+    padding-bottom: 70px;
+  }
+}
 .steps__title {
   margin-bottom: 60px;
 }
+@media (max-width: 860px) {
+  .steps__title {
+    margin-bottom: 30px;
+    font-size: 18px;
+    line-height: normal;
+  }
+}
 .steps__subtitle {
   margin-bottom: 75px;
+}
+@media (max-width: 860px) {
+  .steps__subtitle {
+    margin-bottom: 35px;
+    font-size: 14px;
+    line-height: 45px;
+  }
 }
 
 .icons {
   display: flex;
   justify-content: space-between;
+}
+@media (max-width: 860px) {
+  .icons {
+    display: block;
+  }
 }
 
 .icon {
@@ -494,6 +518,21 @@ img {
   width: 72px;
   height: 25px;
   background-image: url("../img/icon-arrowRight.png");
+}
+@media (max-width: 1080px) {
+  .icon::after {
+    right: -75px;
+  }
+}
+@media (max-width: 920px) {
+  .icon::after {
+    right: -55px;
+  }
+}
+@media (max-width: 860px) {
+  .icon::after {
+    display: none;
+  }
 }
 .icon__image {
   width: 100px;
@@ -518,6 +557,13 @@ img {
   font-size: 14px;
   line-height: 20px;
 }
+@media (max-width: 860px) {
+  .icon__text {
+    margin-bottom: 30px;
+    font-size: 12px;
+    line-height: 16px;
+  }
+}
 
 .notice {
   background-color: #ffc000;
@@ -530,6 +576,12 @@ img {
   margin: auto;
   line-height: 50px;
   font-weight: 300px;
+}
+@media (max-width: 860px) {
+  .notice__text {
+    font-size: 18px;
+    line-height: normal;
+  }
 }
 
 .modal {
