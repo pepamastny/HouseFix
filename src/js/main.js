@@ -15,6 +15,41 @@ $(document).ready(function(){
     modal.removeClass("modal_active");
   });
 
+
+  // Validace formulářů
+  $("#brief-form",).validate({
+    rules: {
+      username: "required",
+      email: {
+        required: true,
+        email: true,
+      },
+      phone: {
+        required: true,
+        number: true,
+      }
+    },
+    messages: {
+      username: "Uveďte Vaše jmnéno",
+      email: "Uveďte Váš email",
+      phone: "Uveďte Vaše telefonní číslo"
+    }
+  });
+
+  $("#offer-form").validate({
+    rules: {
+      username: "required",
+      phone: {
+        required: true,
+        number: true,
+      }
+    },
+    messages: {
+      username: "Uveďte Vaše jmnéno",
+      phone: "Uveďte Vaše telefonní číslo"
+    }
+  });
+
   // Napojení knihovny slideru
   $(".slider").slick({
     slidesToShow: 3,

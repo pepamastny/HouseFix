@@ -68,9 +68,9 @@
                 <div class="offer-block">
                     <h2 class="offer-title wow animate__animated animate__flipInY">Bezplatně vypracujeme design-projekt pro Váš domov a realizujeme ho!</h2>
                     <span class="offer-subtitle wow animate__animated animate__flipInX">Zanechte poptávku pro vypracování bezplatného design-projektu!</span>
-                    <form action="#" class="form offer__form">
-                        <input type="text" class="input offer__input wow animate__animated animate__slideInLeft" placeholder="Vaše jméno">
-                        <input type="tel" class="input offer__input wow animate__animated animate__slideInRight" placeholder="Váš telefon">
+                    <form action="#" class="form offer__form" id="offer-form">
+                        <input type="text" name="username" class="input offer__input wow animate__animated animate__slideInLeft" placeholder="Vaše jméno">
+                        <input type="tel" name="phone" class="input offer__input wow animate__animated animate__slideInRight" placeholder="Váš telefon">
                         <button class="button offer__button wow animate__animated animate__flip">Získejte bezplatný design-projekt</button>
                     </form>
                     <div class="offer__info">
@@ -316,9 +316,10 @@
                         <span class="form__subtitle">
                             Vyplňte níže uvedený formulář
                         </span>
-                        <form action="#" class="form">
-                            <input type="text" class="input brief__input" placeholder="Vaše jméno">
-                            <input type="text" class="input brief__input" placeholder="Váš telefon">
+                        <form action="#" class="form" id="brief-form">
+                            <input type="text" name="username" class="input brief__input" placeholder="Vaše jméno">
+                            <input type="text" name="phone" class="input brief__input" placeholder="Váš telefon">
+                            <input type="email" name="email" class="input brief__input" placeholder="Váš email">
                             <button class="button brief__button">Vypočítat náklady</button>
                             <span class="form__description"> Zavoláme vám nazpět do 60 sekund</span>
                         </form>
@@ -340,6 +341,7 @@
     <script src="https://code.jquery.com/jquery-3.6.1.min.js"></script>
     <script src="js/slick.min.js"></script>
     <script src="js/wow.min.js"></script>
+    <script src="js/jquery.validate.min.js"></script>
     <script src="js/main.js"></script>
 
 </body>
