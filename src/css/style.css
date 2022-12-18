@@ -810,6 +810,16 @@ img {
     max-width: 300px;
   }
 }
+@media (max-width: 450px) {
+  .interview-list__text {
+    max-width: 200px;
+  }
+}
+@media (max-width: 340px) {
+  .interview-list__text {
+    max-width: 100px;
+  }
+}
 
 .form__title {
   font-size: 22px;
